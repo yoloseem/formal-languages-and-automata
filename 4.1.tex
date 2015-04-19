@@ -1,35 +1,20 @@
-\documentclass[]{book}
+\documentclass[]{article}
 
-%These tell TeX which packages to use.
-\usepackage{array,epsfig}
 \usepackage{amsmath}
-\usepackage{amsfonts}
 \usepackage{amssymb}
-\usepackage{amsxtra}
 \usepackage{amsthm}
-\usepackage{mathrsfs}
-\usepackage{color}
-\usepackage{lipsum}
-\usepackage{adjustbox}
 
-%Here I define some theorem styles and shortcut commands for symbols I use often
 \theoremstyle{definition}
 \newtheorem{defn}{Definition}
 \newtheorem{innercustomtheorem}{Theorem}
 \newenvironment{thm}[1]
   {\renewcommand\theinnercustomtheorem{#1}\innercustomtheorem}
   {\endinnercustomtheorem}
-\newtheorem{cor}{Corollary}
-\newtheorem*{rmk}{Remark}
-\newtheorem{lem}{Lemma}
-\newtheorem*{joke}{Joke}
 \newtheorem{innercustomexample}{Example}
 \newenvironment{ex}[1]
   {\renewcommand\theinnercustomexample{#1}\innercustomexample}
   {\endinnercustomexample}
 \newtheorem*{soln}{Solution}
-\newtheorem{prop}{Proposition}
-
 \renewcommand\qedsymbol{Q.E.D.}
 
 %Pagination stuff.
