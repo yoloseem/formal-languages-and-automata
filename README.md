@@ -8,6 +8,8 @@
 
 책의 연습 문제들과 풀이를 LaTeX로 작성해 모아둘 용도로 만들었습니다.
 
+문서의 작성과 컴파일은 [ShareLaTeX](https://www.sharelatex.com/) 서비스를 사용합니다.
+
 # Contribution
 
 풀이가 틀렸다면 알려주시면 감사하겠습니다...
